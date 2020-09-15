@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<!-- Comments -->
+<!-- Html root element with language attribute -->
+<html lang="en">
+
+	
+	<!-- HTML FILE HEAD -->	
+	<head>
+	<!-- meta: Charset -->	
+		<meta charset="utf-8">
+	<!-- meta: Author -->	
+		<meta name="author" content="TMRM | 09-14-2020">
+	<!-- meta: Description -->	
+		<meta name="description" content="Basic HTML Page">
+	<!-- meta: Viewport -->	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- HTML PAGE TITLE -->
+		<title>Images</title>
+	</head>
+
+
+    <!-- HTML FILE BODY -->		
+	<body>
+		
+	<!-- img - Image -->	
+	<!-- NB: We always use src with img to tell the browser where to find the image referenced in the img tag -->
+	<!-- NB: If the image is in the same location as the browser is currently on then we only need to specify the filename of the image. If not then we must specify the folder -->	
+	<!-- NB: img src is case-sensitive when put on the web but may not be with local testing -->	
+		<img src="dog.jpg">
+		<img src="images/dog.jpg">
+		
+	<!-- alt - Alternative/Description -->
+	<!-- NB: Because search engine spiders only actually parse text then we use the alt text to give browsers and spiders context for the image -->
+	<!-- NB: If the image is not found then the alt description shows in its place -->
+		<img src="images/dog.jpg" alt="Golden Retriever">
+		
+	<!-- width="X" - width | height="30" -->
+	<!-- NB: We can specify image height and width in html but its preferable to do it in CSS as the browser can incorrectly scale the image by squishing it based on your stipulations -->
+	<!-- NB: If you must set the dimension of an image only do it along one axis so that the image scales appropriately -->	
+	<!-- NB: Typically we should use an appropriately scaled image before upload so that the browser does not waste time and bandwidth downloading a larger than appropriate image -->
+	<img src="images/dog.jpg" alt="Golden Retriever" width="30" height="30">
+		
+	<!-- image that has a clickable link -->
+	<a href="https://en.wikipedia.org/wiki/Golden_Retriever">
+	   <img src="images/dog.jpg" alt="Golden Retriever">
+	</a>
+		
+	<!-- image within a table -->
+	<table>
+		<tr>
+			<th><img src="images/male_dog.png" alt="Male Dog"></th>
+			<th><img src="images/female_dog.png" alt="Female Dog"></th>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>8</td>
+		</tr>
+	</table>
+		
+    <!-- summary | p - Expanding Element -->
+	<!-- NB: This is where we want to give the user some information and then have them click on it to learn more about what they clicked on -->	
+	<details>
+	<summary> Want to Read More</summary>
+	<p>Here is more information about this</p>
+	</details>
+		
+	<!-- audio - Audio -->
+	<!-- NB: MP3 - Universally Supported Format -->
+	<!-- NB: For Multimedia you can embed versions of the media in different file formats and the browsers will display the version it can -->
+	<!-- NB: We give the audio an id for CSS needs -->
+	<!-- NB: Nice source for free sounds https://findsounds.com/ -->
+	<!-- NB: if we don't issue controls then the user cannot control the play/pause and volume of the audio -->
+	<audio id="mySound" controls>
+		<source src="audio/dobbarking.mp3" type="audio/mpeg">	
+		Your Browser does not support the audio element.
+	</audio>
+		
+	<!-- - Video -->
+	<!-- NB: MP4 - Universally Supported Format -->
+	<!-- UNKNOWN: If a browser can render all forms of the multimedia we ass -->
+	<video id="myVideo" width="400" autoplay controls>
+		<source src="video/sample360x240.mp4" type="video/mp4">
+		<source src="video/videoinogg.ogv" type="video/ogg">
+		<source src="video/videoinwebm.webm" type="video/webm">
+		Your browser does not support HTML5 video.
+    </video>
+		
+	</body>
+	
+	
+</html>

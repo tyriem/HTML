@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<!-- Comments -->
+<!-- Html root element with language attribute -->
+<html lang="en">
+
+	
+	<!-- HTML FILE HEAD -->	
+	<head>
+	<!-- meta: Charset -->	
+		<meta charset="utf-8">
+	<!-- meta: Author -->	
+		<meta name="author" content="TMRM | 09-01-2020">
+	<!-- meta: Description -->	
+		<meta name="description" content="Basic HTML Page">
+	<!-- meta: Viewport -->	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- HTML PAGE TITLE -->
+		<title>Linking</title>
+	<!-- base - Base of all HTML links in a page -->
+	<!-- NB: If all of the links on a page will be to a certain domain you can use base to set that domain for all hyperlinks -->
+		<base href="https://www.w3schools.com/">
+	</head>
+
+
+    <!-- HTML FILE BODY -->		
+	<body>
+    <!-- a href - Hypertext Link -->
+	<!-- NB: The a stands for anchor -->
+	<!-- NB: The text that comes after the link in " is the text shown to the user" -->
+	<!-- NB: Standard link color is blue but this can be changed, visited links are generally in purple -->
+		<a href="page1.html">Go To Page 1</a>
+		<br>
+	<!-- a href="http://" - External Hypertext Link -->
+		<a href="http://google.html">Google</a>
+	<!-- a href="" target="_blank" - New Page Hypertext Link -->
+		<a href="http://google.html" target="_blank">Google In A New Window</a>
+	<!-- a href="" title="" - Titled Hypertext Link -->
+	<!-- NB: The Title will show when the user hovers over the link -->	
+		<a href="http://google.html" title="Worl'd Most Popular Search Engine">Google</a>
+		
+	<!-- a href="*starts without link*" - Base Hyperlink -->
+	<!-- NB: This type of link only works if you set the base in the head -->	
+		<a href="tags/tag_base.asp">HTML base Tag</a>
+		
+		
+	<!-- id="X" - Element ID -->
+	<!-- NB: Tags that have IDs can be hyperlinked to using # in the href -->	
+		<h1 id="intro">Header</h1>
+	<!-- a href="#X" - Internal Hyperlink for an element on this page -->
+		<a href="#intro">Hyperlink to Header</a>
+	
+	</body>
+	
+</html>
