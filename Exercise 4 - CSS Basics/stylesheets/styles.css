@@ -1,0 +1,69 @@
+/* css Animal - Cheetah v1.00 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* BASIC ELEMENTS */
+
+/* html - Style */
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+/* h1 - Style */
+h1 {
+	color: blue;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font: italic;
+	font-size: 15	0px;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-decoration: underline;
+	text-indent: 5px;
+	line-height: 2;
+	letter-spacing: -1px;
+	}
+
+/* h2 - Style */
+h2 {
+	color: #000000;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font: oblique;
+	font-size: 5em;
+	font-weight:5;
+	font-variant:inherit;
+	text-decoration: overline;
+	text-indent: 5px;
+	line-height: -1;
+	letter-spacing: 2px;
+	}
+
+/* p - Style */
+p {
+	color: hsla(194,100%,50%,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font: oblique;
+	font-size: 2em;
+	font-weight: 2;
+	font-variant:inherit;
+	text-decoration: none;
+	text-indent: 50px;
+	line-height: -1;
+	letter-spacing: 1px;
+	}
+
+/* ADVANCED ELEMENTS */
+
+/* DIV: links - Style */ 
+.link {
+  background-color: #55CAFF;
+  color: white;
+  border: 2px solid black;
+  margin: 2px;
+  padding: 2px;
+}
+
+/* DIV: list - Style */ 
+.list {
+  background-color: #FFFFFF;
+  color: lightblue;
+}

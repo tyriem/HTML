@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	
+	<head>	
+		<meta charset="utf-8">
+		<meta name="author" content="TMRM | 09-21-2020">	
+		<meta name="description" content="Fictional Animal Encyclopedia: Chicketh">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+	<!-- STYLE -->
+	<!-- NB: STYLE can either be done: 1) With an external .CSS file that is linked in the header 2) With a <style></style> tag in the header 3) With a style attribute  attached to the element itself-->
+	<!-- CSS LINK -->
+		<link rel="stylesheet" href="styles.css">
+		
+		
+	<!-- STYLE -->
+	<!-- NB: We can either style a page internally with the style tag or with a separate .CSS file
+    Some web devs used to even style an html page with html tables but this practice is slow, time consuming and yields inconsistent results -->
+		
+	<!-- style - CSS in HTML -->
+		<style>
+	/* h1 - Style*/
+	/* NB: we issue the selector (h1 in this case), then open curly brackets { the declaration which is made up of the property (color in this case) and value (blue in this case) then close curly brackets */
+			h1
+			{
+			
+	/* color - COLOR of Element */ 
+			/* When CSSing a color you can use the english name of the color, or any of the common color codes (RGB, HEX, HSLa)*/
+			/* Color:Name */
+			/* color - blue */
+			color: blue;	
+			}
+	        /* h2 - Style*/		
+			h2
+			{
+			/* Color:HEX */
+			/* c - light blue */
+			color:#E0E4FF; 	
+			}
+			
+	        /* body - Style*/		
+			body
+			{
+	/* background-color - COLOR Behind Element */
+			/* background color - black */
+			background-color: #000000;
+			/* Color:HSLa*/
+			/* c - light blue */
+			color:hsla(232,100%,94%,1.00); 		
+			}
+	        /* p - Style*/
+			p
+			{
+	/* font	- FONT Style of Element*/
+			font: Italic;
+				
+	/* font-family - FONT Type of Element*/
+			/*NB: If you put a comma after a font-family and the browser cannot find the first it will use the next after the comma*/
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+				
+	/* font-size - Font Size*/
+			/*NB: When CSSing font size you change it as pixels (Xpx), Em (Xem) or Relative Viewport (Xvw)*/
+			font-size: 50px;
+				
+	/* font-weight - Font Weight*/	
+			/*NB: When CSSing font weight you can do it with a value (100) or type (bold)*/
+			font-weight: bold;
+				
+	/* font-variant - Font Variant*/
+			/*NB: Changes the variant of the font-family used. Ex. normal, small-caps, inherit*/
+			font-variant: small-caps;
+	
+	/* text-decoration - Font Decoration*/
+			/*NB: Adds a decoration on (Ex. none, inherit, line through, underline, overline) */
+			text-decoration: underline;
+			
+	/* text-indent - Text Indent*/
+			/*NB: Puts an indent of the size specified ahead of the element's text */
+			text-indent: 50px;
+			
+	/* line-height - Line Height*/
+			/*NB: Sets the line height of the element's text.
+			When CSSing line-height you can do it woutl a value (1.6), percentage (80%), or state (normal)*/
+			line-height: 2;
+				
+	/* letter-spacing - Text Spacing*/
+			/*NB: Sets the spacing between the text */
+			letter-spacing: -1px;
+			
+	/* border - Border Around Element*/
+			/*NB: Sets a border around element of size (Xpx), type (solid) and color (black) specified. */			
+			border: 2px solid black;
+	
+	/* margin - Margin Around Element*/
+			/*NB: Sets a margin around element of size (Xpx) */	
+		    margin: 2px;
+				
+	/* padding - Pad Around Element*/
+			/*NB: Sets a pad around element of size (Xpx) */	
+			padding: 2px;
+				
+			}
+			
+		</style>
+		
+		<title>Animals - Chicketh</title>
+	</head>
+
+	
+	<body>
+		
+	<!-- x style - Style element inside of HTML tag -->	
+		<h1 style="background-color:DangerBlue;"> Chicketh</h1>
+	
+		
+		<p>The chicketh is a unique chimera, i.e. composite animal, that results from combining a rooster, waterbuck and a cat.</p>
+			
+		
+    
+		<h2>What They Eat</h2>
+
+		<p>Chickeths are carnivores whose typical prey are small- to medium-size animals, such as:</p>
+		
+
+		<ul type="circle">
+			<li>Gazelles</li>
+			<li>Hares</li>
+			<li>Warthogs</li>
+			<li>Birds</li>
+		</ul>
+		
+
+
+	
+	    <details>
+	    <summary> Want to Read More About Chimeras?</summary>
+	    <p>Animal Hybrids (or colloquially "Chimeras") should not be confused with genetic chimeras, such as that between sheep and goat known as the geep. Wider interspecific hybrids can be made via in vitro fertilization or somatic hybridization, however the resulting cells are not able to develop into a full organism.<a href="https://en.wikipedia.org/wiki/List_of_genetic_hybrids" target="_blank"> Wikipedia - Chimeras</a></p>
+	   </details>		
+		
+		
+	</body>
+	
+</html>
