@@ -9,9 +9,30 @@ html {
 	padding: 0;
 	}
 
+/* unvisited link - Style */
+a:link {
+  color: rgba(138,255,244,0.50);
+  text-shadow: 1px 1px #000000;
+}
+
+/* visited link - Style */
+a:visited {
+  color: darkcyan;
+}
+
+/* mouse over link - Style */
+a:hover {
+  color: black;
+}
+
+/* selected link - Style */
+a:active {
+  color: blue;
+}
+
 /* h1 - Style */
 h1 {
-	color: blue;
+	color: darkturquoise;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font: italic;
 	font-size: 15	0px;
@@ -39,23 +60,22 @@ h2 {
 
 /* p - Style */
 p {
-	color: hsla(194,100%,50%,1.00);
+	color: hsla(176,100%,50%,1.00);
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	font: oblique;
 	font-size: 2em;
 	font-weight: 2;
 	font-variant:inherit;
+	text-shadow: 2px 2px #000000;
 	text-decoration: none;
 	text-indent: 50px;
 	line-height: -1;
 	letter-spacing: 1px;
 	}
 
-/* ADVANCED ELEMENTS */
-
 /* DIV: links - Style */ 
 .link {
-  background-color: #55CAFF;
+  background-color: rgba(128,245,235,0.50);
   color: white;
   border: 2px solid black;
   margin: 2px;
@@ -64,6 +84,45 @@ p {
 
 /* DIV: list - Style */ 
 .list {
-  background-color: #FFFFFF;
-  color: lightblue;
+  background-color: rgba(255,255,255,0.50);
+  text-shadow: 1px 1px #000000;
+  color: darkturquoise;
+}
+
+
+/* ADVANCED ELEMENTS */
+
+/* DIV: parallax - Style */ 
+.parallax0,.parallax1,.parallax2 {
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* DIV: parallax0 - Style */ 
+.parallax0 {
+	  /* The image used */
+  background-image: url("background-cheetah0.webp");
+  background-image: url("background-cheetah0.jpg");
+}
+
+/* DIV: parallax1 - Style */ 
+.parallax1 {
+	  /* The image used */
+  background-image: url("background-cheetah1.webp");
+  background-image: url("background-cheetah1.jpg");
+}
+
+/* DIV: parallax2 - Style */ 
+.parallax2 {
+	  /* The image used */
+  background-size:auto;
+  background-image: url("background-cheetah2.webp");
+  background-image: url("background-cheetah2.jpg");
 }
