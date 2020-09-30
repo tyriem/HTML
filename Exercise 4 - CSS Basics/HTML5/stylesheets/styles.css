@@ -1,0 +1,128 @@
+/* css Animal - Cheetah v1.00 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* BASIC ELEMENTS */
+
+/* html - Style */
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+/* unvisited link - Style */
+a:link {
+  color: rgba(138,255,244,0.50);
+  text-shadow: 1px 1px #000000;
+}
+
+/* visited link - Style */
+a:visited {
+  color: darkcyan;
+}
+
+/* mouse over link - Style */
+a:hover {
+  color: black;
+}
+
+/* selected link - Style */
+a:active {
+  color: blue;
+}
+
+/* h1 - Style */
+h1 {
+	color: darkturquoise;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font: italic;
+	font-size: 15	0px;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-decoration: underline;
+	text-indent: 5px;
+	line-height: 2;
+	letter-spacing: -1px;
+	}
+
+/* h2 - Style */
+h2 {
+	color: #000000;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font: oblique;
+	font-size: 5em;
+	font-weight:5;
+	font-variant:inherit;
+	text-decoration: overline;
+	text-indent: 5px;
+	line-height: -1;
+	letter-spacing: 2px;
+	}
+
+/* p - Style */
+p {
+	color: hsla(176,100%,50%,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font: oblique;
+	font-size: 2em;
+	font-weight: 2;
+	font-variant:inherit;
+	text-shadow: 2px 2px #000000;
+	text-decoration: none;
+	text-indent: 50px;
+	line-height: -1;
+	letter-spacing: 1px;
+	}
+
+/* DIV: links - Style */ 
+.link {
+  background-color: rgba(128,245,235,0.50);
+  color: white;
+  border: 2px solid black;
+  margin: 2px;
+  padding: 2px;
+}
+
+/* DIV: list - Style */ 
+.list {
+  background-color: rgba(255,255,255,0.50);
+  text-shadow: 1px 1px #000000;
+  color: darkturquoise;
+}
+
+
+/* ADVANCED ELEMENTS */
+
+/* DIV: parallax - Style */ 
+.parallax0,.parallax1,.parallax2 {
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* DIV: parallax0 - Style */ 
+.parallax0 {
+	  /* The image used */
+  background-image: url("background-cheetah0.webp");
+  background-image: url("background-cheetah0.jpg");
+}
+
+/* DIV: parallax1 - Style */ 
+.parallax1 {
+	  /* The image used */
+  background-image: url("background-cheetah1.webp");
+  background-image: url("background-cheetah1.jpg");
+}
+
+/* DIV: parallax2 - Style */ 
+.parallax2 {
+	  /* The image used */
+  background-size:auto;
+  background-image: url("background-cheetah2.webp");
+  background-image: url("background-cheetah2.jpg");
+}
