@@ -1,0 +1,170 @@
+/* css - Recipe Page v2.00 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* BASIC ELEMENTS */
+
+/* html - Style */
+		html 
+	    {
+		margin: 0;
+		padding: 0;
+			
+		}
+		
+
+    /* [BACKGROUND] */
+		body
+		{
+			background-image: linear-gradient(to right, hsla(48,26%,57%,0.31), hsla(54,91%,42%,0.32)), url("../images/background.jpg");
+			
+			
+   
+
+    /* Full height */
+            height: 100%;
+					
+	/* Center and scale the image nicely */
+			background-position: center;
+		    background-repeat: no-repeat;
+			background-size: cover;
+		}
+	/* [h1 - Font] */
+		h1
+			{
+					/* font-family - FONT Type of Element*/
+						/* NB: Here we specify the font-family grabbed from Google Web Fonts as well as a fallback font (cursive) in case the server with the fonts cannot be contacted */
+						font-family: 'Sansita Swashed', cursive;
+
+				/* font-size - Font Size*/
+						font-size: 50px;
+			}
+	    
+		
+    /* [SHADOWS] */
+
+		h1, h2, h3, p, ul, ol, table
+			{
+				
+	/* TEXT SHADOW - SIMPLE BORDER */			
+				text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+			}
+
+	
+    /* TEXT SHADOW - GLOW */
+	    .glowstyle
+			{
+				text-shadow: 0 0 20px white;
+			}
+     /* TEXT SHADOW - MULTIPLE SHADOWS */
+	    .multipleshadows
+			{
+				color: white;
+				text-shadow: 3px 3px 2px black,
+				             6px 7px blue,
+				             10px 11px 4px grey,
+				             20px 24px white;
+			}
+			
+	/* BOX SHADOW - IMG */
+	    img
+			{
+				box-shadow: 5px 3px black;
+	/* border radius - Shave border of element */
+				border-radius: 50px 25px;
+			}
+			
+			/* BOX SHADOW - Black Shadow */
+	    .boxblackshadow
+			{
+				  height: 50px;
+                  width: 310px;
+				box-shadow: 2px 0px 20px black;
+			}
+
+		.shapebox0
+				 {
+					border-top: 60px solid hsla(112,73%,64%,0.34);
+					border-left: 50px hsla(51,100%,29%,0.34);
+					border-right: 50px hsla(51,100%,29%,0.34)t;
+					border-bottom: 10px solid transparent;
+					height: 10px;
+					width: 480px;
+					position:relative;
+				}
+
+				.shapebox0 span 
+				{
+				   position: absolute;
+					top: -70px;
+				}
+
+
+/* ADVANCED ELEMENTS */
+
+		.shapebox1
+		 {
+			border-top: 100px solid hsla(112,73%,64%,0.34);
+			border-left: 50px hsla(51,100%,29%,0.34);
+			border-right: 50px hsla(51,100%,29%,0.34)t;
+			border-bottom: 10px solid transparent;
+			height: 1px;
+			width: 100px;
+			position:relative;
+		}
+
+		.shapebox1 span 
+		{
+		   position: absolute;
+			top: -110px;
+		}
+
+		.shapebox2
+		 {
+			border-top: 400px solid hsla(112,73%,64%,0.34);
+			border-left: 50px hsla(51,100%,29%,0.34);
+			border-right: 50px hsla(51,100%,29%,0.34)t;
+			border-bottom: 10px solid transparent;
+			height: 10px;
+			width: 300px;
+			position:relative;
+		}
+
+		.shapebox2 span 
+		{
+		   position: absolute;
+			top: -400px;
+		}
+
+		.shapebox3
+		 {
+			border-top: 320px solid hsla(112,73%,64%,0.34);
+			border-left: 50px hsla(51,100%,29%,0.34);
+			border-right: 50px hsla(51,100%,29%,0.34)t;
+			border-bottom: 10px solid transparent;
+			height: 50px;
+			width: 700px;
+			position:relative;
+		}
+
+		.shapebox3 span 
+		{
+		   position: absolute;
+			top: -330px;
+		}
+
+		.shapebox4
+		 {
+			border-top: 70px solid hsla(112,73%,64%,0.34);
+			border-left: 50px hsla(51,100%,29%,0.34);
+			border-right: 50px hsla(51,100%,29%,0.34)t;
+			border-bottom: 10px solid transparent;
+			height: 50px;
+			width: 310px;
+			position:relative;
+		}
+
+		.shapebox4 span 
+		{
+		   position: absolute;
+			top: -100px;
+		}

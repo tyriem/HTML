@@ -1,0 +1,180 @@
+/* css - Recipe Page v2.00 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* BASIC ELEMENTS */
+
+/* html - Style */
+		html 
+	    {
+		margin: 0;
+		padding: 0;			
+		}
+		
+
+/* [BACKGROUND] */
+		body
+		{
+		background-image: linear-gradient(to right, hsla(0,0%,0%,0.62), hsla(0,0%,0%,0.68)), url("../images/background.jpg");
+
+	/* Full height */
+        height: 100%;
+					
+	/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;	
+		}
+
+/* [LINKS] */
+	/* unvisited link - Style */
+		a:link
+		{
+		color: tan;
+		text-shadow: 1px 1px #000000;
+		}
+
+	/* visited link - Style */
+		a:visited 
+		{
+		color: black;
+		}
+
+	/* mouse over link - Style */
+		a:hover 
+		{
+		color: antiquewhite;
+		}
+
+	/* selected link - Style */
+		a:active 
+		{
+		color: blue;
+		}
+
+
+/* [FONTS] */
+	/* [h1 - Font] */
+		h1
+		{
+	/* font-family - FONT Type of Element*/
+		font-family: 'Sansita Swashed', cursive;
+	/* font-size - Font Size*/
+		font-size: 50px;
+	/* font-color - color*/
+		color: SADDLEBROWN;
+		}
+
+/* [h2 - Font] */
+		h2
+		{
+	/* font-family - FONT Type of Element*/
+		font-family: 'Open Sans', sans-serif;
+	/* font-size - Font Size*/
+		font-size: 30px;
+	/* font-color - color*/
+		color: SADDLEBROWN;
+		}
+
+/* [h2 - Font] */
+		h3
+		{
+	/* font-family - FONT Type of Element*/
+		font-family: 'Open Sans', sans-serif;
+	/* font-size - Font Size*/
+		font-size: 20px;
+	/* font-color - color*/
+		color: SADDLEBROWN;
+		}
+
+/* [p - Font] */
+		p
+		{
+	/* font-family - FONT Type of Element*/
+		font-family: 'Open Sans', sans-serif;
+	/* font-size - Font Size*/
+		font-size: 20px;
+	/* font-color - color*/
+		color: SADDLEBROWN;
+		}
+
+/* [ul, ol - Font] */
+		ul, ol
+		{
+	/* font-family - FONT Type of Element*/
+		font-family: 'Open Sans', sans-serif;
+	/* font-size - Font Size*/
+		font-size: 20px;
+	/* font-color - color*/
+		color: SADDLEBROWN;
+		}
+	    
+		
+/* [SHADOWS] */
+
+		h1, h2, h3, p, ul, ol, table
+		{			
+	/* TEXT SHADOW - SIMPLE BORDER */			
+		text-shadow: -1px 0 GAINSBORO, 0 1px GAINSBORO, 1px 0 GAINSBORO, 0 -1px GAINSBORO;
+		}
+
+	
+    /* TEXT SHADOW - GLOW */
+	    .glowstyle
+		{
+		text-shadow: 0 0 20px white;
+		}
+     /* TEXT SHADOW - MULTIPLE SHADOWS */
+	    .multipleshadows
+		{
+		color: white;
+		text-shadow: 3px 3px 2px black,
+				     6px 7px blue,
+				     10px 11px 4px GAINSBORO,
+				     20px 24px white;
+		}
+			
+	/* BOX SHADOW - IMG */
+	    img
+		{		
+		margin:0px 20px;
+		box-shadow: 5px 3px black;
+	/* border radius - Shave border of element */
+		border-radius: 50px 25px;
+		}
+
+
+
+/* ADVANCED ELEMENTS */
+
+/* [PARALLAX] */
+	/* DIV: parallax - Style */ 
+		.parallax0,.parallax1,.parallax2 
+		{
+	/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		}
+
+	/* DIV: parallax0 - Style */ 
+		.parallax0 
+		{
+	/* The image used */
+		background-image: linear-gradient(to right, hsla(0,0%,0%,0.62), hsla(0,0%,0%,0.68)), url("../images/background0.jpg");
+		}
+
+	/* DIV: parallax1 - Style */ 
+		.parallax1 
+		{
+	/* The image used */
+		background-image: linear-gradient(to right, hsla(0,0%,0%,0.62), hsla(0,0%,0%,0.68)), url("../images/background1.jpg");
+		}
+
+	/* DIV: parallax2 - Style */ 
+		.parallax2 
+		{
+	/* The image used */
+		background-image: linear-gradient(to right, hsla(0,0%,0%,0.62), hsla(0,0%,0%,0.68)), url("../images/background2.jpg");
+		background-size:auto;
+		}

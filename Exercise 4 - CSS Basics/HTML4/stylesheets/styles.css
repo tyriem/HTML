@@ -108,21 +108,22 @@ p {
 /* DIV: parallax0 - Style */ 
 .parallax0 {
 	  /* The image used */
-  background-image: url("background-cheetah0.webp");
-  background-image: url("background-cheetah0.jpg");
+ /* NB: TO MOVE UP A LEVEL IN THE HIERARCHY OF THE FILESYSTEM WE USE ../ BEFORE THE REST OF THE URL EACH TIME WE WANT TO GO UP A LEVEL */
+  background-image: url("../images/background-cheetah0.webp");
+  background-image: url("../images/background-cheetah0.jpg");
 }
 
 /* DIV: parallax1 - Style */ 
 .parallax1 {
 	  /* The image used */
-  background-image: url("background-cheetah1.webp");
-  background-image: url("background-cheetah1.jpg");
+  background-image: url("../images/background-cheetah1.webp");
+  background-image: url("../images/background-cheetah1.jpg");
 }
 
 /* DIV: parallax2 - Style */ 
 .parallax2 {
 	  /* The image used */
   background-size:auto;
-  background-image: url("background-cheetah2.webp");
-  background-image: url("background-cheetah2.jpg");
+  background-image: url("../images/background-cheetah2.webp");
+  background-image: url("../images/background-cheetah2.jpg");
 }

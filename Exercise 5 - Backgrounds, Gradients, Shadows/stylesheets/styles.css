@@ -1,0 +1,79 @@
+/* css Animal - Cheetah v1.00 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* BASIC ELEMENTS */
+
+/* html - Style */
+	html 
+	    {
+		margin: 0;
+		padding: 0;
+		}
+		
+/* [BACKGROUND IMAGES] */
+		body
+		{
+			background-image: url("../images/background.webp");
+		}
+
+    /* [GRADIENTS] */
+		body
+		{
+			background-image: linear-gradient(to right, rgba(7,0,255,0.00), rgba(0,49,255,1.00)), url("../images/background.webp");
+			width: 1000px;
+			height: 800px;
+		}
+	
+	    
+		
+    /* [SHADOWS] */
+
+	/* TEXT SHADOW - HORIZONTAL AND VERTICAL */
+		h1
+			{
+				text-shadow: 4px 3px black;
+				font-size: 40px;
+	/* TEXT SHADOW - SIMPLE BORDER */			
+				text-shadow: -2px 0 blue, 0 2px blue, 2px 0 blue, 0 -2px blue;
+			}
+	/* TEXT SHADOW - HORIZONTAL,VERTICAL & BLUR */		
+		h2 
+			{
+			    text-shadow: 6px 5px 10px black;	
+			}
+	/* TEXT SHADOW - NEGATIVE VALUES */	
+		p
+			{
+				text-shadow: -7px -8px 4px black;
+			}
+	
+    /* TEXT SHADOW - GLOW */
+	    .glowstyle
+			{
+				text-shadow: 0 0 20px white;
+			}
+     /* TEXT SHADOW - MULTIPLE SHADOWS */
+	    .multipleshadows
+			{
+				color: white;
+				text-shadow: 3px 3px 2px black,
+				             6px 7px blue,
+				             10px 11px 4px grey,
+				             20px 24px white;
+			}
+			
+	/* BOX SHADOW - IMG */
+	    img
+			{
+				box-shadow: 5px 3px black;
+	/* border radius - Shave border of element */
+				border-radius: 50px 25px;
+			}
+			
+			/* BOX SHADOW - Black Shadow */
+	    .boxblackshadow
+			{
+				box-shadow: 0 15px 20px black;
+			}
+
+
